@@ -14,7 +14,7 @@ if (page === "home") {
   initCustomCursor();
   initGlitchText(".glitch-text--animated");
   initTypewriter("[data-typewriter]");
-  initCounters(".section-stats");
+  void initCounters(".section-stats");
 }
 
 if (page === "privacy" || page === "terms") {

@@ -145,22 +145,22 @@ $abs = htmlspecialchars($assets_base, ENT_QUOTES, 'UTF-8');
         <div class="section-stats__grid">
             <div class="stat-item reveal">
                 <div class="stat-item__label">Participantes activos</div>
-                <div class="stat-item__value stat-item__value--p" data-counter-target="128">0</div>
+                <div class="stat-item__value stat-item__value--p" data-counter-stat="participantes" data-counter-target="0">0</div>
                 <div class="stat-item__line stat-item__line--p"></div>
             </div>
             <div class="stat-item reveal">
                 <div class="stat-item__label">Videos publicados</div>
-                <div class="stat-item__value stat-item__value--s" data-counter-target="347">0</div>
+                <div class="stat-item__value stat-item__value--s" data-counter-stat="publicados" data-counter-target="0">0</div>
                 <div class="stat-item__line stat-item__line--s"></div>
             </div>
             <div class="stat-item reveal">
                 <div class="stat-item__label">Países conectados</div>
-                <div class="stat-item__value stat-item__value--t" data-counter-target="12">0</div>
+                <div class="stat-item__value stat-item__value--t" data-counter-stat="paises" data-counter-target="0">0</div>
                 <div class="stat-item__line stat-item__line--t"></div>
             </div>
             <div class="stat-item reveal">
-                <div class="stat-item__label">Días activos</div>
-                <div class="stat-item__value stat-item__value--p" data-counter-target="90">0</div>
+                <div class="stat-item__label">Archivos totales</div>
+                <div class="stat-item__value stat-item__value--p" data-counter-stat="archivos_total" data-counter-target="0">0</div>
                 <div class="stat-item__line stat-item__line--p"></div>
             </div>
         </div>
