@@ -11,17 +11,18 @@ try {
     $stmt = $pdo->query("
         SELECT
             id,
-            file_name,
-            participant_name,
+            drive_file_name AS file_name,
+            uploader_name AS participant_name,
             uploader_email,
-            uploaded_at,
+            created_at AS uploaded_at,
             drive_file_id
         FROM queue
         WHERE status = 'pending'
-        ORDER BY uploaded_at ASC
+        ORDER BY created_at ASC
     ");
     $rows = $stmt->fetchAll();
 } catch (Throwable $e) {
+    error_log('admin/index.php queue: ' . $e->getMessage());
     $error = 'No se pudo cargar la cola. Comprueba la tabla `queue` y los nombres de columnas.';
 }
 

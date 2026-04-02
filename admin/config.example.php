@@ -3,9 +3,9 @@
  * Copiar este archivo a config.php y rellenar valores reales.
  * admin/config.php está en .gitignore y no se sube al repositorio.
  *
- * La tabla `queue` debe incluir al menos: id, status, file_name,
- * participant_name, uploader_email, uploaded_at, drive_file_id.
- * Ajusta los nombres en admin/index.php si tu esquema difiere.
+ * La tabla `queue` (ondeck-system) usa: drive_file_name, uploader_name,
+ * created_at, etc. El panel hace SELECT con alias (file_name, participant_name,
+ * uploaded_at) para la vista.
  */
 declare(strict_types=1);
 
