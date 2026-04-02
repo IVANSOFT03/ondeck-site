@@ -15,11 +15,11 @@ switch ($active_page) {
         <div class="site-nav__start">
             <a class="site-nav__brand site-nav__brand--link" href="<?php echo $b; ?>/">OnDeck Colectivo</a>
             <div class="site-nav__links site-nav__links--tight">
-                <a class="site-nav__link" href="<?php echo $b; ?>/#how-it-works">How it works</a>
-                <a class="site-nav__link" href="<?php echo $b; ?>/#why-ondeck">Why OnDeck</a>
-                <a class="site-nav__link" href="<?php echo $b; ?>/#statistics">Statistics</a>
-                <a class="site-nav__link site-nav__link--active" href="<?php echo $b; ?>/privacy">Privacy</a>
-                <a class="site-nav__link" href="<?php echo $b; ?>/terms">Terms</a>
+                <a class="site-nav__link" href="<?php echo $b; ?>/#how-it-works">Cómo funciona</a>
+                <a class="site-nav__link" href="<?php echo $b; ?>/#why-ondeck">¿Por qué OnDeck?</a>
+                <a class="site-nav__link" href="<?php echo $b; ?>/#statistics">Estadísticas</a>
+                <a class="site-nav__link site-nav__link--active" href="<?php echo $b; ?>/privacy">Privacidad</a>
+                <a class="site-nav__link" href="<?php echo $b; ?>/terms">Términos</a>
             </div>
         </div>
         <div class="site-nav__actions">

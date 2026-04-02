@@ -33,7 +33,7 @@ $abs = htmlspecialchars($assets_base, ENT_QUOTES, 'UTF-8');
                 Tu contenido.<br/>
                 <span class="glitch-text glitch-text--animated hero__title-accent">Nuestra cuenta.</span>
             </h1>
-            <p class="hero__lead">La primera plataforma colaborativa de TikTok en español. Sube tu video o imagen y nosotros lo publicamos por ti, sin que necesites acceso a la cuenta.</p>
+            <p class="hero__lead">La primera plataforma colaborativa de TikTok en español. Sube tu video y nosotros lo publicamos por ti, sin que necesites acceso a la cuenta.</p>
             <div class="hero__actions">
                 <a class="btn-hero-primary" href="#contact">Quiero participar<span class="material-symbols-outlined" aria-hidden="true">bolt</span></a>
                 <button type="button" class="btn-hero-ghost">Ver tutorial</button>
@@ -77,7 +77,7 @@ $abs = htmlspecialchars($assets_base, ENT_QUOTES, 'UTF-8');
 <section class="section-how reveal" id="how-it-works">
     <div class="container">
         <header class="section-how__head">
-            <h2 class="section-how__title">How It Works</h2>
+            <h2 class="section-how__title">Cómo funciona</h2>
             <div class="section-how__rule"></div>
         </header>
         <div class="section-how__grid">
@@ -107,7 +107,7 @@ $abs = htmlspecialchars($assets_base, ENT_QUOTES, 'UTF-8');
     <div class="container">
         <div class="section-why__intro">
             <div>
-                <h2 class="section-why__title">Why OnDeck Colectivo</h2>
+                <h2 class="section-why__title">¿Por qué OnDeck Colectivo?</h2>
                 <p class="section-why__lead">Una plataforma pensada para creadores que quieren  llegar a más gente sin complicaciones técnicas.</p>
             </div>
             <span class="badge-hud">SYSTEM_CORE_ADVANTAGES</span>
