@@ -8,14 +8,20 @@
     # index.php -> / (canonical)
     RewriteCond %{THE_REQUEST} \s/+index\.php[\s?] [NC]
     RewriteRule ^index\.php$ / [R=301,L]
-    # *.php -> misma ruta sin extensión
+    # *.php -> misma ruta sin extensión (no admin: los formularios POST a action.php fallarían)
     RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+    RewriteCond %{REQUEST_URI} !^/admin/
     RewriteRule ^(.+)\.php$ /$1 [R=301,L]
     # api/* -> archivo .php correspondiente
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME}.php -f
     RewriteRule ^api/([^/]+)/?$ api/$1.php [L,QSA]
+    # admin/* -> archivo .php correspondiente (p. ej. /admin/action -> action.php)
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^admin/([^/]+)/?$ admin/$1.php [L,QSA]
     # /privacy, /terms, etc. -> archivo .php correspondiente
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d

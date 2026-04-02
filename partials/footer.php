@@ -30,7 +30,7 @@ switch ($active_page) {
         </div>
         <div class="site-footer__legal-note">
             <p class="site-footer__meta">
-                © 2024 OnDeck Colectivo. <br class="footer-br"/> All rights reserved. <span class="site-footer__ref">REFR_OD_2024</span>
+                © 2026 OnDeck Colectivo. <br class="footer-br"/> All rights reserved. <span class="site-footer__ref">REFR_OD_2024</span>
             </p>
         </div>
     </div>

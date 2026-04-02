@@ -33,7 +33,7 @@ $abs = htmlspecialchars($assets_base, ENT_QUOTES, 'UTF-8');
                 Tu contenido.<br/>
                 <span class="glitch-text glitch-text--animated hero__title-accent">Nuestra cuenta.</span>
             </h1>
-            <p class="hero__lead">La primera plataforma colaborativa de TikTok en español. Sube tu contenido y lo publicamos por ti. Escalabilidad sin fronteras.</p>
+            <p class="hero__lead">La primera plataforma colaborativa de TikTok en español. Sube tu video o imagen y nosotros lo publicamos por ti, sin que necesites acceso a la cuenta.</p>
             <div class="hero__actions">
                 <a class="btn-hero-primary" href="#contact">Quiero participar<span class="material-symbols-outlined" aria-hidden="true">bolt</span></a>
                 <button type="button" class="btn-hero-ghost">Ver tutorial</button>
@@ -85,19 +85,19 @@ $abs = htmlspecialchars($assets_base, ENT_QUOTES, 'UTF-8');
                 <span class="step-card__num">01</span>
                 <div class="step-card__icon-wrap"><span class="material-symbols-outlined step-card__icon step-card__icon--p" aria-hidden="true">chat_bubble</span></div>
                 <h3 class="step-card__title">Escríbenos por DM</h3>
-                <p class="step-card__text">Inicia el protocolo de contacto. Nuestro sistema te guiará a través de la interfaz de validación inicial.</p>
+                <p class="step-card__text">Contáctanos por mensaje directo en TikTok. Te enviamos el acceso a tu carpeta personal en Google Drive donde subirás tu contenido.</p>
             </article>
             <article class="step-card step-card--s2 glass-hud reveal">
                 <span class="step-card__num">02</span>
                 <div class="step-card__icon-wrap"><span class="material-symbols-outlined step-card__icon step-card__icon--s" aria-hidden="true">cloud_upload</span></div>
                 <h3 class="step-card__title">Sube tu video</h3>
-                <p class="step-card__text">Carga tus activos multimedia a través de nuestro portal seguro. Optimización automática de metadatos.</p>
+                <p class="step-card__text">Sube hasta 1 video por día a tu carpeta. Aceptamos videos MP4 de hasta 500MB.</p>
             </article>
             <article class="step-card step-card--s3 glass-hud reveal">
                 <span class="step-card__num">03</span>
                 <div class="step-card__icon-wrap"><span class="material-symbols-outlined step-card__icon step-card__icon--t" aria-hidden="true">schedule</span></div>
                 <h3 class="step-card__title">Esperamos tu turno</h3>
-                <p class="step-card__text">Nuestro algoritmo de cola inteligente procesa tu contenido para maximizar el impacto viral.</p>
+                <p class="step-card__text">Tu contenido entra a una cola justa por orden de llegada. Publicamos 3 veces al día y te avisamos por email cuando salga al aire.</p>
             </article>
         </div>
     </div>
@@ -108,7 +108,7 @@ $abs = htmlspecialchars($assets_base, ENT_QUOTES, 'UTF-8');
         <div class="section-why__intro">
             <div>
                 <h2 class="section-why__title">Why OnDeck Colectivo</h2>
-                <p class="section-why__lead">Arquitectura diseñada para creadores que buscan impacto sin fricción técnica.</p>
+                <p class="section-why__lead">Una plataforma pensada para creadores que quieren  llegar a más gente sin complicaciones técnicas.</p>
             </div>
             <span class="badge-hud">SYSTEM_CORE_ADVANTAGES</span>
         </div>
@@ -116,22 +116,22 @@ $abs = htmlspecialchars($assets_base, ENT_QUOTES, 'UTF-8');
             <article class="bento-card bento__wide bento-card--key reveal">
                 <span class="material-symbols-outlined bento-icon bento-icon--xl bento-icon--primary" aria-hidden="true">key_off</span>
                 <h3 class="bento-card__title bento-card__title--lg">Sin acceso a contraseñas</h3>
-                <p class="bento-card__text">Protocolo de seguridad Zero-Knowledge. Tu privacidad es innegociable en nuestro ecosistema.</p>
+                <p class="bento-card__text">Tu privacidad es lo primero. Nunca pedimos acceso a tu cuenta de TikTok ni a tus redes sociales. Solo subes tu contenido y nosotros hacemos el resto.</p>
             </article>
             <article class="bento-card bento-card--sm reveal">
                 <span class="material-symbols-outlined bento-icon bento-icon--lg bento-icon--secondary" aria-hidden="true">reorder</span>
                 <h3 class="bento-card__title">Cola justa</h3>
-                <p class="bento-card__text bento-card__text--xs">Algoritmo FIFO transparente. Todos los creadores tienen la misma prioridad de emisión.</p>
+                <p class="bento-card__text bento-card__text--xs">Todos los participantes tienen las mismas oportunidades. El primero en subir es el primero en publicarse. Sin privilegios ni excepciones.</p>
             </article>
             <article class="bento-card bento-card--sm reveal">
                 <span class="material-symbols-outlined bento-icon bento-icon--lg bento-icon--tertiary" aria-hidden="true">dynamic_feed</span>
                 <h3 class="bento-card__title">3 posts al día</h3>
-                <p class="bento-card__text bento-card__text--xs">Mantenemos el pulso del algoritmo con publicaciones constantes y programadas.</p>
+                <p class="bento-card__text bento-card__text--xs">Publicamos todos los días a las 8am, 2pm y 8pm. Constancia garantizada para que el algoritmo trabaje a tu favor.</p>
             </article>
             <article class="bento-card bento__full bento-card--cta reveal">
                 <div>
                     <h3 class="bento-card__title bento-card__title--lg">Comunidad abierta</h3>
-                    <p class="bento-card__text">Únete a cientos de creadores que ya están rompiendo el algoritmo.</p>
+                    <p class="bento-card__text">Cualquier persona puede participar. No importa si tienes 10 o 10.000 seguidores. OnDeck Colectivo es para todos.</p>
                 </div>
                 <button type="button" class="btn-bento-cta">Explorar Red</button>
             </article>
@@ -175,7 +175,7 @@ $abs = htmlspecialchars($assets_base, ENT_QUOTES, 'UTF-8');
             <div class="contact-panel__inner">
                 <p class="contact-panel__eyebrow">Finalize protocol</p>
                 <h2 class="contact-panel__title">¿Quieres participar?</h2>
-                <p class="contact-panel__text">Nuestro ecosistema está en constante expansión. Envíanos un mensaje para validar tu perfil y comenzar la secuencia de publicación.</p>
+                <p class="contact-panel__text">Es muy sencillo. Escríbenos por DM en TikTok o al correo y en menos de 24 horas te enviamos el acceso a tu carpeta personal en Google Drive.</p>
                 <div class="contact-panel__actions">
                     <a class="btn-contact-tt" href="https://tiktok.com/@ondeckcolectivo" target="_blank" rel="noopener noreferrer">Ir a TikTok @ondeckcolectivo<span class="material-symbols-outlined" aria-hidden="true">trending_up</span></a>
                     <div>
