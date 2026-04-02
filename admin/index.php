@@ -4,31 +4,28 @@ declare(strict_types=1);
 require_once __DIR__ . '/auth.inc.php';
 ondeck_admin_require_basic_auth();
 
+function h(string $s): string
+{
+    return htmlspecialchars($s, ENT_QUOTES, 'UTF-8');
+}
+
 $rows = [];
 $error = null;
 try {
     $pdo = ondeck_admin_pdo();
-    $stmt = $pdo->query("
-        SELECT
-            id,
-            drive_file_name AS file_name,
-            uploader_name AS participant_name,
-            uploader_email,
-            created_at AS uploaded_at,
-            drive_file_id
-        FROM queue
-        WHERE status = 'pending'
-        ORDER BY created_at ASC
-    ");
-    $rows = $stmt->fetchAll();
+    // SELECT * evita errores si los nombres de columnas difieren; se normalizan abajo.
+    $stmt = $pdo->query("SELECT * FROM queue WHERE status = 'pending' ORDER BY id ASC");
+    $raw = $stmt->fetchAll();
+    $rows = [];
+    foreach ($raw as $r) {
+        $rows[] = ondeck_admin_normalize_queue_row($r);
+    }
 } catch (Throwable $e) {
     error_log('admin/index.php queue: ' . $e->getMessage());
-    $error = 'No se pudo cargar la cola. Comprueba la tabla `queue` y los nombres de columnas.';
-}
-
-function h(string $s): string
-{
-    return htmlspecialchars($s, ENT_QUOTES, 'UTF-8');
+    $error = 'No se pudo cargar la cola. Revisa credenciales en admin/config.php, que la tabla `queue` exista en esa base de datos, y el log del servidor.';
+    if (defined('ONDECK_ADMIN_DEBUG') && ONDECK_ADMIN_DEBUG) {
+        $error .= ' Detalle: ' . h($e->getMessage());
+    }
 }
 ?>
 <!DOCTYPE html>

@@ -40,3 +40,24 @@ function ondeck_admin_pdo(): PDO
     }
     return $pdo;
 }
+
+/**
+ * Adapta una fila de `queue` a las claves que usa la vista del panel.
+ * Soporta distintos nombres de columnas según el esquema (ondeck-system / tiktok-system).
+ */
+function ondeck_admin_normalize_queue_row(array $row): array
+{
+    $file = $row['drive_file_name'] ?? $row['file_name'] ?? $row['filename'] ?? $row['original_filename'] ?? $row['original_name'] ?? '';
+    $participant = $row['uploader_name'] ?? $row['participant_name'] ?? $row['participant'] ?? $row['display_name'] ?? $row['name'] ?? '';
+    $when = $row['created_at'] ?? $row['uploaded_at'] ?? $row['submitted_at'] ?? $row['inserted_at'] ?? '';
+    $driveId = $row['drive_file_id'] ?? $row['drive_id'] ?? $row['google_file_id'] ?? '';
+
+    return [
+        'id' => (int) ($row['id'] ?? 0),
+        'file_name' => (string) $file,
+        'participant_name' => (string) $participant,
+        'uploader_email' => (string) ($row['uploader_email'] ?? ''),
+        'uploaded_at' => (string) $when,
+        'drive_file_id' => (string) $driveId,
+    ];
+}

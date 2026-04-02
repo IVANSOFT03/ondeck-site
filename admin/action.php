@@ -18,7 +18,9 @@ if ($id === false || $id < 1 || !in_array($action, ['approve', 'reject'], true))
     exit;
 }
 
-$status = $action === 'approve' ? 'approved' : 'rejected';
+$approved = defined('QUEUE_STATUS_APPROVED') ? QUEUE_STATUS_APPROVED : 'approved';
+$rejected = defined('QUEUE_STATUS_REJECTED') ? QUEUE_STATUS_REJECTED : 'rejected';
+$status = $action === 'approve' ? $approved : $rejected;
 
 try {
     $pdo = ondeck_admin_pdo();
