@@ -301,14 +301,19 @@
 }
 
 .site-footer__social-img {
-  width: 1.3rem;
-  height: 1.3rem;
-  filter: grayscale(1);
-  transition: filter 0.2s ease;
+  width: 2rem;
+  height: 2rem;
+  display: block;
+  filter: none;
+  opacity: 0.95;
+  transition: opacity 0.2s ease, transform 0.2s ease, filter 0.2s ease;
+  filter: drop-shadow(0 0 8px rgba(0, 242, 234, 0.18));
 }
 
 .site-footer__social-img:hover {
-  filter: grayscale(0);
+  opacity: 1;
+  transform: translateY(-1px);
+  filter: drop-shadow(0 0 10px rgba(0, 242, 234, 0.28));
 }
 
 .site-footer__legal-note {
