@@ -24,7 +24,7 @@ $abs = htmlspecialchars($assets_base, ENT_QUOTES, 'UTF-8');
             Términos de <br/>
             <span class="terms-hero__gradient">Servicio</span>
         </h1>
-        <p class="terms-hero__date">Última actualización: marzo 2026</p>
+        <p class="terms-hero__date">Última actualización: abril 2026</p>
     </header>
 
     <div class="terms-grid">
@@ -35,7 +35,7 @@ $abs = htmlspecialchars($assets_base, ENT_QUOTES, 'UTF-8');
                     <span class="material-symbols-outlined terms-card__icon-top" aria-hidden="true">electric_bolt</span>
                 </div>
                 <h2 class="terms-card__h2 terms-card__h2--lg text-primary-fixed">1. Uso del servicio</h2>
-                <p class="terms-card__p">El acceso a OnDeck Colectivo es de carácter voluntario y gratuito. Al interactuar con nuestros sistemas de carga de contenido, el usuario acepta de manera íntegra y sin reservas los presentes términos. Este entorno opera como una red neural de distribución de medios creativos.</p>
+                <p class="terms-card__p">OnDeck Colectivo es una plataforma gratuita y voluntaria donde cualquier persona puede contribuir contenido a una cuenta de TikTok compartida. Al participar aceptas estas condiciones de uso.</p>
             </div>
             <div class="terms-bar">
                 <span class="terms-bar__seg terms-bar__seg--p"></span>
@@ -47,10 +47,11 @@ $abs = htmlspecialchars($assets_base, ENT_QUOTES, 'UTF-8');
             <div class="terms-card__sec">SEC_002</div>
             <h2 class="terms-card__h2 terms-card__h2--lg text-tertiary-fixed">2. Contenido aceptable</h2>
             <ul class="terms-list">
-                <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Material estrictamente original y de autoría propia.</span></li>
-                <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Se permite cualquier idioma o expresión cultural.</span></li>
-                <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Límite de 1 publicación diaria por entidad.</span></li>
-                <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Capacidad máxima de archivo: 500MB.</span></li>
+                <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Videos e imágenes originales o con derechos de uso.</span></li>
+                <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Cualquier idioma o temática.</span></li>
+                <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Máximo 1 archivo por día por participante.</span></li>
+                <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Máximo 500MB por archivo.</span></li>
+                <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Formatos aceptados: MP4, MOV, JPG, PNG.</span></li>
             </ul>
         </section>
 
@@ -58,7 +59,7 @@ $abs = htmlspecialchars($assets_base, ENT_QUOTES, 'UTF-8');
             <span class="material-symbols-outlined terms-card__danger-icon" aria-hidden="true">dangerous</span>
             <div class="terms-card__sec">SEC_003</div>
             <h2 class="terms-card__h2 text-secondary">3. Contenido prohibido</h2>
-            <p class="terms-card__p terms-card__p--sm">Queda terminantemente prohibido el material explícito, contenido protegido por copyright sin licencia, spam publicitario o cualquier infracción directa a las políticas de seguridad de TikTok.</p>
+            <p class="terms-card__p terms-card__p--sm">Queda prohibido subir material explícito, violento o ilegal, contenido que viole derechos de autor, spam, contenido generado masivamente por bots, o cualquier material que viole las políticas de TikTok. El equipo de OnDeck revisa cada archivo antes de publicarlo.</p>
         </section>
 
         <section class="terms-card terms-card--8 glass-panel reveal">
@@ -66,11 +67,11 @@ $abs = htmlspecialchars($assets_base, ENT_QUOTES, 'UTF-8');
                 <div>
                     <div class="terms-card__sec">SEC_004</div>
                     <h2 class="terms-card__h2 text-primary">4. Propiedad del contenido</h2>
-                    <p class="terms-card__p terms-card__p--sm">El usuario retiene la totalidad de los derechos sobre su obra. OnDeck Colectivo actúa exclusivamente como un nodo intermediario tecnológico.</p>
+                    <p class="terms-card__p terms-card__p--sm">El participante conserva todos los derechos sobre su contenido. OnDeck Colectivo actúa únicamente como intermediario de publicación. El contenido se elimina de nuestros servidores tras publicarse en TikTok.</p>
                 </div>
                 <div class="terms-data-box">
-                    <p class="terms-data-box__label">Data Policy</p>
-                    <p class="terms-card__p terms-card__p--sm">Los archivos locales son eliminados de nuestros servidores inmediatamente después de que la publicación se confirma en la plataforma destino.</p>
+                    <p class="terms-data-box__label">Política de datos</p>
+                    <p class="terms-card__p terms-card__p--sm">El contenido se elimina de nuestros servidores tras publicarse en TikTok.</p>
                 </div>
             </div>
         </section>
@@ -79,9 +80,8 @@ $abs = htmlspecialchars($assets_base, ENT_QUOTES, 'UTF-8');
             <div class="terms-card__sec">SEC_005</div>
             <h2 class="terms-card__h2">5. Proceso de publicación</h2>
             <div class="terms-steps">
-                <div class="terms-step"><span class="terms-step__num">01</span><p class="terms-step__text">Ejecución bajo protocolo FIFO (First In, First Out).</p></div>
-                <div class="terms-step"><span class="terms-step__num">02</span><p class="terms-step__text">Sin garantía de fecha u hora exacta de lanzamiento.</p></div>
-                <div class="terms-step"><span class="terms-step__num">03</span><p class="terms-step__text">Notificación vía email solo en caso de rechazo crítico.</p></div>
+                <div class="terms-step"><span class="terms-step__num">01</span><p class="terms-step__text">El orden de publicación es estrictamente por llegada (FIFO).</p></div>
+                <div class="terms-step"><span class="terms-step__num">02</span><p class="terms-step__text">Cada archivo es revisado por el equipo antes de publicarse.</p></div>
             </div>
         </section>
 
