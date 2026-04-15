@@ -283,6 +283,23 @@
   }
 }
 
+.site-footer--index .site-footer__meta,
+.site-footer--index .site-footer__links {
+  white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+  .site-footer--index .site-footer__row {
+    flex-wrap: nowrap;
+  }
+
+  .site-footer--index .site-footer__links {
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    gap: var(--space-6);
+  }
+}
+
 .site-footer__social-img {
   width: 1rem;
   height: 1rem;
