@@ -257,6 +257,12 @@
   gap: 0.25rem;
 }
 
+.site-footer__link--icon {
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+}
+
 .site-footer__row {
   display: flex;
   flex-wrap: wrap;
@@ -277,14 +283,14 @@
   }
 }
 
-.site-footer--index .site-footer__social-img {
+.site-footer__social-img {
   width: 1rem;
   height: 1rem;
   filter: grayscale(1);
   transition: filter 0.2s ease;
 }
 
-.site-footer--index .site-footer__social-img:hover {
+.site-footer__social-img:hover {
   filter: grayscale(0);
 }
 
