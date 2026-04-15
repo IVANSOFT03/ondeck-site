@@ -110,7 +110,7 @@ $abs = htmlspecialchars($assets_base, ENT_QUOTES, 'UTF-8');
                 <h2 class="section-why__title">¿Por qué OnDeck Colectivo?</h2>
                 <p class="section-why__lead">Una plataforma pensada para creadores que quieren  llegar a más gente sin complicaciones técnicas.</p>
             </div>
-            <span class="badge-hud">SYSTEM_CORE_ADVANTAGES</span>
+            <span class="badge-hud">VENTAJAS CLAVE DEL SISTEMA</span>
         </div>
         <div class="bento">
             <article class="bento-card bento__wide bento-card--key reveal">
