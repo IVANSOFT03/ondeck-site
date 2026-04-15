@@ -283,11 +283,6 @@
   }
 }
 
-.site-footer--index .site-footer__meta,
-.site-footer--index .site-footer__links {
-  white-space: nowrap;
-}
-
 @media (min-width: 768px) {
   .site-footer--index .site-footer__row {
     flex-wrap: nowrap;
@@ -297,6 +292,11 @@
     flex-wrap: nowrap;
     justify-content: flex-end;
     gap: var(--space-6);
+  }
+
+  .site-footer--index .site-footer__meta,
+  .site-footer--index .site-footer__links {
+    white-space: nowrap;
   }
 }
 

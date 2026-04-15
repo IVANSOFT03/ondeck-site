@@ -28,7 +28,7 @@ switch ($active_page) {
         </div>
         <div class="site-footer__legal-note">
             <p class="site-footer__meta">
-                © <?php echo $year; ?> OnDeck Colectivo. <br class="footer-br"/> Todos los derechos reservados. <span class="site-footer__ref">REFR_OD_2024</span>
+                © <?php echo $year; ?> OnDeck Colectivo. <br class="footer-br"/> Todos los derechos reservados.
             </p>
         </div>
     </div>
@@ -49,7 +49,7 @@ switch ($active_page) {
                 <img class="site-footer__social-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkzIkqV4myCxYSb8KHnLRuTpiwrci05YipStU6L8EvWu1oVBBK3VN2kIIADfjwvCDFN7SWPNOQOdbSa6SONv6wg7vo61CXs7Cke0VsDe7yrI7lD7oXjKkgjOXilfhaZagBIUOLe45BmM8e5UGIUta67tn3AKH8c2GcmoQrt0AcHVIEA9-ZARVVIC84W9QBUrO87Qk_mGpssVA7KiqCfqFy8kTYd9rmppg2II3oKP1nPbACScRI0EyDo7alQK4Q21qeURJa5U71iXB3" alt="" width="16" height="16"/>
             </a>
         </div>
-        <div class="site-footer__meta site-footer__meta--small">© <?php echo $year; ?> OnDeck Colectivo. Todos los derechos reservados. REFR_OD_2024</div>
+        <div class="site-footer__meta site-footer__meta--small">© <?php echo $year; ?> OnDeck Colectivo. Todos los derechos reservados.</div>
     </div>
 </footer>
         <?php
@@ -63,7 +63,7 @@ switch ($active_page) {
         <div class="site-footer__row">
             <span class="site-footer__brand site-footer__brand--mono">OD Colectivo</span>
             <span class="site-footer__sep">|</span>
-            <span class="site-footer__meta">© <?php echo $year; ?> OnDeck Colectivo. Todos los derechos reservados. REFR_OD_2024</span>
+            <span class="site-footer__meta">© <?php echo $year; ?> OnDeck Colectivo. Todos los derechos reservados.</span>
         </div>
         <div class="site-footer__links">
             <a class="site-footer__link" href="<?php echo $b; ?>/privacy">Política de privacidad</a>
