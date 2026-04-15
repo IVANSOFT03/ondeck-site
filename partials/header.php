@@ -23,7 +23,7 @@ switch ($active_page) {
             </div>
         </div>
         <div class="site-nav__actions">
-            <button type="button" class="btn btn--join-privacy">Join Colectivo</button>
+            <button type="button" class="btn btn--join-privacy">Unirme al colectivo</button>
             <button type="button" class="site-nav__menu-btn" aria-label="Abrir menú">
                 <span class="material-symbols-outlined">menu</span>
             </button>
@@ -46,7 +46,7 @@ switch ($active_page) {
             <a class="site-nav__link site-nav__link--active" href="<?php echo $b; ?>/terms">Términos</a>
         </div>
         <div class="site-nav__actions">
-            <button type="button" class="btn btn--join-terms">Join Colectivo</button>
+            <button type="button" class="btn btn--join-terms">Unirme al colectivo</button>
             <span class="material-symbols-outlined site-nav__menu-icon" aria-hidden="true">menu</span>
         </div>
     </div>
@@ -63,14 +63,14 @@ switch ($active_page) {
             <span class="site-nav__brand">OD Colectivo</span>
         </div>
         <div class="site-nav__links">
-            <a class="site-nav__link site-nav__link--active" href="#how-it-works">How it works</a>
-            <a class="site-nav__link" href="#why-ondeck">Why OnDeck</a>
-            <a class="site-nav__link" href="#statistics">Statistics</a>
-            <a class="site-nav__link" href="<?php echo $b; ?>/privacy">Privacy</a>
-            <a class="site-nav__link" href="<?php echo $b; ?>/terms">Terms</a>
+            <a class="site-nav__link site-nav__link--active" href="#how-it-works">Cómo funciona</a>
+            <a class="site-nav__link" href="#why-ondeck">¿Por qué OnDeck?</a>
+            <a class="site-nav__link" href="#statistics">Estadísticas</a>
+            <a class="site-nav__link" href="<?php echo $b; ?>/privacy">Privacidad</a>
+            <a class="site-nav__link" href="<?php echo $b; ?>/terms">Términos</a>
         </div>
         <div class="site-nav__actions">
-            <button type="button" class="btn btn--primary btn--primary--sm">Join Colectivo</button>
+            <button type="button" class="btn btn--primary btn--primary--sm">Unirme al colectivo</button>
             <button type="button" class="site-nav__menu-btn" aria-label="Abrir menú">
                 <span class="material-symbols-outlined">menu</span>
             </button>
