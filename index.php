@@ -36,7 +36,6 @@ $abs = htmlspecialchars($assets_base, ENT_QUOTES, 'UTF-8');
             <p class="hero__lead">La primera plataforma colaborativa de TikTok en español. Sube tu video y nosotros lo publicamos por ti, sin que necesites acceso a la cuenta.</p>
             <div class="hero__actions">
                 <a class="btn-hero-primary" href="#contact">Quiero participar<span class="material-symbols-outlined" aria-hidden="true">bolt</span></a>
-                <button type="button" class="btn-hero-ghost">Ver tutorial</button>
             </div>
         </div>
         <div class="hero-hud hero-hud__corners">

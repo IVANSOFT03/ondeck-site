@@ -156,21 +156,6 @@
   transform: scale(0.95);
 }
 
-.btn-hero-ghost {
-  padding: var(--space-4) var(--space-8);
-  border: 1px solid var(--color-outline-variant);
-  color: var(--color-primary);
-  font-family: var(--font-headline);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  transition: background 0.3s ease;
-}
-
-.btn-hero-ghost:hover {
-  background: var(--color-surface-container);
-}
-
 /* Hero HUD panel */
 .hero-hud {
   display: none;
