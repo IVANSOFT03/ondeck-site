@@ -31,22 +31,22 @@ $abs = htmlspecialchars($assets_base, ENT_QUOTES, 'UTF-8');
                 Política de <br/>
                 <span class="legal-hero__title-stroke">Privacidad</span>
             </h1>
-            <p class="legal-hero__date">Última actualización: marzo 2026</p>
+            <p class="legal-hero__date">Última actualización: abril 2026</p>
         </header>
 
         <div class="legal-sections">
             <section class="legal-block reveal">
                 <div class="legal-block__inner">
                     <div class="legal-block__aside">
-                        <span class="legal-block__label legal-block__label--p">01 // COLLECTION</span>
+                        <span class="legal-block__label legal-block__label--p">01 // INFORMACIÓN QUE RECOPILAMOS</span>
                         <h2 class="legal-block__h2">Información que recopilamos</h2>
                     </div>
                     <div class="legal-block__body">
-                        <p class="legal-block__p">En el núcleo de OnDeck Colectivo, procesamos únicamente los datos esenciales para mantener la integridad del flujo creativo:</p>
+                        <p class="legal-block__p">Para gestionar tu participación en OnDeck Colectivo recopilamos únicamente:</p>
                         <ul class="legal-block__list">
-                            <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Identidad digital (Nombre y correo electrónico)</span></li>
-                            <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Metadatos de archivos de Google Drive (Acceso de solo lectura)</span></li>
-                            <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Telemetría de uso del sistema y logs de sesión</span></li>
+                            <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Nombre de usuario y correo electrónico</span></li>
+                            <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Archivos de video e imagen que subes a Google Drive</span></li>
+                            <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Fecha y hora de subida de cada archivo</span></li>
                         </ul>
                     </div>
                 </div>
@@ -55,21 +55,16 @@ $abs = htmlspecialchars($assets_base, ENT_QUOTES, 'UTF-8');
             <section class="legal-block legal-block--s2 reveal">
                 <div class="legal-block__inner">
                     <div class="legal-block__aside">
-                        <span class="legal-block__label legal-block__label--s">02 // UTILIZATION</span>
-                        <h2 class="legal-block__h2">Cómo usamos la información</h2>
+                        <span class="legal-block__label legal-block__label--s">02 // CÓMO USAMOS LA INFORMACIÓN</span>
+                        <h2 class="legal-block__h2">Cómo usamos tu información</h2>
                     </div>
                     <div class="legal-block__body">
-                        <p class="legal-block__p">Tus datos alimentan exclusivamente los mecanismos internos de nuestra infraestructura. Bajo ninguna circunstancia mercantilizamos tu huella digital.</p>
-                        <div class="legal-mini-grid">
-                            <div class="legal-mini-card">
-                                <h4 class="legal-mini-card__h legal-mini-card__h--p">Queue Logic</h4>
-                                <p class="legal-mini-card__p">Gestión automatizada de turnos en el sistema de carga y visualización.</p>
-                            </div>
-                            <div class="legal-mini-card">
-                                <h4 class="legal-mini-card__h legal-mini-card__h--s">Alert Sync</h4>
-                                <p class="legal-mini-card__p">Notificaciones instantáneas sobre el estado de tus activos digitales.</p>
-                            </div>
-                        </div>
+                        <p class="legal-block__p">Usamos tus datos exclusivamente para:</p>
+                        <ul class="legal-block__list">
+                            <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Gestionar tu turno en la cola de publicación</span></li>
+                            <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Notificarte por email cuando tu contenido sea publicado</span></li>
+                            <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Contactarte si tu contenido es rechazado</span></li>
+                        </ul>
                     </div>
                 </div>
             </section>
@@ -77,20 +72,24 @@ $abs = htmlspecialchars($assets_base, ENT_QUOTES, 'UTF-8');
             <section class="legal-block reveal">
                 <div class="legal-block__inner">
                     <div class="legal-block__aside">
-                        <span class="legal-block__label legal-block__label--p">03 // ECOSYSTEM</span>
+                        <span class="legal-block__label legal-block__label--p">03 // SERVICIOS DE TERCEROS</span>
                         <h2 class="legal-block__h2">Servicios de terceros</h2>
                     </div>
                     <div class="legal-block__body">
-                        <p class="legal-block__p">Nuestra plataforma se integra de manera granular con ecosistemas externos. Te recomendamos revisar sus protocolos de seguridad específicos:</p>
+                        <p class="legal-block__p">OnDeck Colectivo utiliza estos servicios externos para funcionar. Cada uno tiene su propia política de privacidad:</p>
                         <div class="legal-eco">
-                            <div class="legal-eco__chip glass-panel">
+                            <a class="legal-eco__chip glass-panel" href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank">
                                 <span class="material-symbols-outlined" aria-hidden="true">cloud</span>
                                 <span>Google Drive</span>
-                            </div>
-                            <div class="legal-eco__chip glass-panel">
+                            </a>
+                            <a class="legal-eco__chip glass-panel" href="https://www.tiktok.com/legal/privacy-policy" rel="noopener noreferrer" target="_blank">
                                 <span class="material-symbols-outlined" aria-hidden="true">music_note</span>
                                 <span>TikTok</span>
-                            </div>
+                            </a>
+                            <a class="legal-eco__chip glass-panel" href="https://www.hostinger.com/legal/privacy-policy" rel="noopener noreferrer" target="_blank">
+                                <span class="material-symbols-outlined" aria-hidden="true">dns</span>
+                                <span>Hostinger</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -99,11 +98,11 @@ $abs = htmlspecialchars($assets_base, ENT_QUOTES, 'UTF-8');
             <section class="legal-block legal-block--s3 reveal">
                 <div class="legal-block__inner">
                     <div class="legal-block__aside">
-                        <span class="legal-block__label legal-block__label--t">04 // TELEMETRY</span>
+                        <span class="legal-block__label legal-block__label--t">04 // COOKIES</span>
                         <h2 class="legal-block__h2">Cookies</h2>
                     </div>
                     <div class="legal-block__body">
-                        <p class="legal-block__p">Implementamos únicamente balizas funcionales necesarias para la estabilidad de la sesión. Rechazamos categóricamente el rastreo publicitario intrusivo.</p>
+                        <p class="legal-block__p">Este sitio web usa únicamente cookies técnicas necesarias para su funcionamiento. No usamos cookies de rastreo publicitario ni compartimos tu información con anunciantes.</p>
                     </div>
                 </div>
             </section>
@@ -111,25 +110,26 @@ $abs = htmlspecialchars($assets_base, ENT_QUOTES, 'UTF-8');
             <section class="legal-block reveal">
                 <div class="legal-block__inner">
                     <div class="legal-block__aside">
-                        <span class="legal-block__label legal-block__label--p">05 // SOVEREIGNTY</span>
+                        <span class="legal-block__label legal-block__label--p">05 // TUS DERECHOS</span>
                         <h2 class="legal-block__h2">Tus derechos</h2>
                     </div>
                     <div class="legal-block__body">
-                        <p class="legal-block__p">Mantienes la soberanía total sobre tus datos. En cualquier momento puedes ejecutar comandos de:</p>
-                        <div class="legal-rights">
-                            <div class="legal-rights__row"><span>Acceso a registros</span><span class="legal-rights__ok">GRANTED</span></div>
-                            <div class="legal-rights__row"><span>Rectificación de identidad</span><span class="legal-rights__ok">GRANTED</span></div>
-                            <div class="legal-rights__row"><span>Eliminación permanente</span><span class="legal-rights__warn">PURGE_ENABLED</span></div>
-                        </div>
+                        <p class="legal-block__p">Tienes derecho a:</p>
+                        <ul class="legal-block__list">
+                            <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Solicitar acceso a tus datos personales</span></li>
+                            <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Corregir información incorrecta</span></li>
+                            <li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Solicitar la eliminación permanente de tus datos</span></li>
+                        </ul>
+                        <p class="legal-block__p">Para ejercer cualquiera de estos derechos escríbenos a <a class="legal-inline-link" href="mailto:contacto@ondeck.nodo-digital.com">contacto@ondeck.nodo-digital.com</a>.</p>
                     </div>
                 </div>
             </section>
 
             <section class="legal-contact-block glass-panel reveal">
                 <span class="material-symbols-outlined legal-contact-block__icon" aria-hidden="true">terminal</span>
-                <span class="legal-block__label legal-block__label--p">06 // UPLINK</span>
+                <span class="legal-block__label legal-block__label--p">06 // CONTACTO</span>
                 <h2 class="legal-contact-block__h2">Contacto</h2>
-                <p class="legal-block__p">Si requieres una aclaración técnica sobre nuestros protocolos, establece comunicación directa:</p>
+                <p class="legal-block__p">Si tienes preguntas sobre esta política de privacidad o sobre el manejo de tus datos escríbenos:</p>
                 <a class="legal-contact-block__a" href="mailto:contacto@ondeck.nodo-digital.com">contacto@ondeck.nodo-digital.com</a>
             </section>
         </div>

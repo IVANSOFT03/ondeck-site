@@ -16,7 +16,7 @@ switch ($active_page) {
     <div class="site-footer__inner">
         <div>
             <div class="site-footer__brand">OnDeck Colectivo</div>
-            <p class="site-footer__blurb">Conectando la vanguardia digital a través de datos de alta fidelidad y contenido impulsado por la comunidad.</p>
+            <p class="site-footer__blurb">OnDeck Colectivo — Hecho por la comunidad, para la comunidad.</p>
         </div>
         <div class="site-footer__links">
             <a class="site-footer__link site-footer__link--active" href="<?php echo $b; ?>/privacy">Política de privacidad</a>
